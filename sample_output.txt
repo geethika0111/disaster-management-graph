@@ -1,0 +1,50 @@
+Disaster Management - Relief Distribution Graph
+
+Enter number of locations: 4
+
+--- Relief Distribution Menu ---
+1. Add Route
+2. Delete Route
+3. Update Route
+4. Search Route
+5. Display Graph
+6. Exit
+
+Enter choice: 1
+Enter source, destination, relief amount: 0 1 50
+Route added successfully!
+
+Enter choice: 1
+Enter source, destination, relief amount: 1 2 30
+Route added successfully!
+
+Enter choice: 5
+
+Adjacency Matrix:
+0 50 0 0
+50 0 30 0
+0 30 0 0
+0 0 0 0
+
+Enter choice: 3
+Enter source, destination, new relief amount: 0 1 80
+Updated successfully!
+
+Enter choice: 4
+Enter source and destination: 0 1
+Route exists with relief amount: 80
+
+Enter choice: 2
+Enter source and destination: 1 2
+Route deleted!
+
+Enter choice: 5
+
+Adjacency Matrix:
+0 80 0 0
+80 0 0 0
+0 0 0 0
+0 0 0 0
+
+Enter choice: 6
+Exiting...
